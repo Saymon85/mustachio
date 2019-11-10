@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logo{
+    margin: 50px auto;
+}
+
+.navigation{
+    margin: 30px auto;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 15px;
+}    
+
+.navigation ul li a{
+    color: #000;
+    font-family: "Arial Black", "Gadget", "sans-serif";
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation li a.active, .navigation ul li a:hover, .active{
+    color: #0ba39c;
+    cursor: pointer;
+}
+
+.featured {
+    background-image: url('/assets/the-beacon.jpg');
+    height: 550px; 
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+aside{
+    position: absolute;
+    right: 0;
+    top:0;
+    padding-left: 30px;
+    margin-top: 7%;
+    width: 50%;
+}
+aside h2 {
+    background-color: #fff;
+    display:inline-block;
+    color: #000;
+    font-family: 'Poller One','Arial Black', 'sans-serif';
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+aside p {
+    display: inline-block;
+    background-color: #252525;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+    padding: 12px 27px;
+    margin: 10px 0;
+    
+}
+
+aside a{
+    display: block;
+    background-color:#0ba39c;
+    color: #fff;
+    padding: 25px 27px;
+    width: 25%; 
+    text-decoration: none;
+    text-align: center;
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-pictures{
+    text-align: center;
+}
+
+.main-pictures a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poller One';
+}
+.main-pictures img{
+    border: 2px solid #000;
+}
