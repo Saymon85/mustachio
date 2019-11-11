@@ -95,6 +95,8 @@ aside a{
 
 .main-pictures{
     text-align: center;
+    font-size: 20px;
+    margin: 15px;
 }
 
 .main-pictures a{
@@ -105,6 +107,7 @@ aside a{
 
 .main-pictures img{
     border: 2px solid #000;
+    margin-bottom: 30px;
 }
 
 footer{
@@ -132,7 +135,6 @@ footer .social{
 footer .social li{
     display: inline-block;
     list-style: none;
-    margin: 10px;
     width: 10%;
 }
 
