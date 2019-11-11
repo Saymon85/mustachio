@@ -20,6 +20,7 @@ header{
 
 .navigation ul li {
     display: inline-block;
+    list-style: none;
     margin: 15px;
 }    
 
@@ -43,6 +44,7 @@ header{
     margin-bottom: 30px;
     position: relative;
 }
+
 aside{
     position: absolute;
     right: 0;
@@ -51,6 +53,7 @@ aside{
     margin-top: 7%;
     width: 50%;
 }
+
 aside h2 {
     background-color: #fff;
     display:inline-block;
@@ -85,7 +88,7 @@ aside a{
 
 #pictures{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; 
     width: 70%;
     margin: 0 auto;
 }
@@ -99,6 +102,84 @@ aside a{
     color: #000;
     font-family: 'Poller One';
 }
+
 .main-pictures img{
     border: 2px solid #000;
+}
+
+footer{
+    background-color: #252525;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.footer .copyright{
+    width: 30%;
+}
+footer .copyright p{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+footer .social{
+    text-align: right;
+    width: 50%;
+}
+
+footer .social li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    width: 10%;
+}
+
+#twitter{
+    display: block;
+    background-image: url('./assets/icons/icon-twitter.jpg');
+    background-repeat: no-repeat;;
+    width: 50px;
+    height: 50px;
+}
+
+#twitter:hover{
+    background-image: url('./assets/icons/icon-twitter-hover.jpg');
+}
+
+#facebook{
+    display: block;
+    background-image: url('./assets/icons/icon-facebook.jpg');
+    background-repeat: no-repeat;;
+    width: 50px;
+    height: 50px;
+}
+
+#facebook:hover{
+    background-image: url('./assets/icons/icon-facebook-hover.jpg');
+}
+
+#google{
+    display: block;
+    background-image: url('./assets/icons/icon-googleplus.jpg');
+    background-repeat: no-repeat;;
+    width: 50px;
+    height: 50px;
+}
+
+#google:hover{
+    background-image: url('./assets/icons/icon-googleplus-hover.jpg');
+}
+
+#pinterest{
+    display: block;
+    background-image: url('./assets/icons/icon-pinterest.jpg');
+    background-repeat: no-repeat;;
+    width: 50px;
+    height: 50px;
+}
+
+#pinterest:hover{
+    background-image: url('./assets/icons/icon-pinterest-hover.jpg');
 }
